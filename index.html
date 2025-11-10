@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marcus | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Marcus Galdino — Web Projects</h1>
+  </header>
+
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <section>
+      <h2>Welcome</h2>
+      <p>This page shows two sample projects and a projects table. I practiced HTML tables and CSS transitions for hover effects.</p>
+    </section>
+
+    <!-- Projects section with a table per assignment -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <table>
+        <caption>Projects Overview</caption>
+
+        <!-- color the 1st and 3rd columns -->
+        <colgroup>
+          <col class="col-1">
+          <col>
+          <col class="col-3">
+          <col>
+        </colgroup>
+
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Landing Page</td>
+            <td>Simple one-page site with a hero, features, and a CTA.</td>
+            <td>
+              <img src="https://via.placeholder.com/120x70.png?text=Proj+1" alt="Landing page mockup">
+            </td>
+            <td>In Progress</td>
+          </tr>
+          <tr>
+            <td>Portfolio</td>
+            <td>Personal portfolio with cards and smooth scrolling.</td>
+            <td>
+              <img src="https://via.placeholder.com/120x70.png?text=Proj+2" alt="Portfolio mockup">
+            </td>
+            <td>Complete</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="4">2 projects listed</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: marcus@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Marcus Galdino</p>
+  </footer>
+</body>
+</html>
